@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Contact | VeloTi</title>
+    </head>
+    <body>
+        <header class="site-header">
+            <nav class="site-nav shell" aria-label="Primary navigation">
+                <a href="index.html" class="brand" aria-label="Go to homepage">
+                    <img src="images/logo.png" alt="VeloTi Webdesigner" class="logo">
+                </a>
+
+                <ul class="nav-links">
+                    <li><a href="index.html#aboutme">About me</a></li>
+                    <li><a href="index.html#projecten">Projects</a></li>
+                </ul>
+
+                <div class="nav-cta">
+                    <a href="contact.html" class="btn">
+                        <img src="images/phone_icon.png" alt="">
+                        Contact
+                    </a>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="contact-layout">
+                <div class="contact-copy">
+                    <p class="eyebrow">Contact</p>
+                    <h1>Let’s talk.</h1>
+                    <p>
+                        Whether it’s a project, collaboration, feedback moment, or just a message because you liked the work — you can reach me here.
+                    </p>
+                    <ul class="contact-points">
+                        <li>Use the form and I’ll receive your message directly.</li>
+                        <li>Best for project questions, feedback, or collaboration ideas.</li>
+                        <li>Clear, simple, and actually on-brand now. As it should be.</li>
+                    </ul>
+                </div>
+
+                <section class="contact-card" aria-labelledby="contact-heading">
+                    <div class="section-heading">
+                        <h2 id="contact-heading">Send a message</h2>
+                        <p>If you still have questions left, feel free to ask.</p>
+                    </div>
+
+                    <form action="https://api.web3forms.com/submit" method="POST" class="stack">
+                        <input type="hidden" name="access_key" value="d45542b0-2563-43b4-baf3-13c06dbe80e3">
+
+                        <div class="input-box">
+                            <input type="text" name="name" placeholder=" " required>
+                            <span>Your name</span>
+                        </div>
+
+                        <div class="input-box">
+                            <input type="email" name="email" placeholder=" " required>
+                            <span>Your e-mail</span>
+                        </div>
+
+                        <div class="input-box">
+                            <textarea name="message" required placeholder=" "></textarea>
+                            <span>Your question</span>
+                        </div>
+
+                        <button class="btn btn--submit" type="submit">Send message</button>
+                    </form>
+                </section>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <p><a href="index.html">← Back to home</a></p>
+        </footer>
+    </body>
+</html>
